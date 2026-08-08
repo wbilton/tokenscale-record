@@ -10,6 +10,9 @@ provider tier to `prices.json` and writes a manifest to
 `verification/YYYY-MM-DD.json` saying, for each provider, whether that night's
 numbers were **verified fresh** against the provider's official pricing page or
 **carried forward** (`cf: true`) from the previous night without a re-check.
+`promos.json` records time-limited promotional pricing windows (launch
+discounts, intro pricing) with start/end dates and the official source URL for
+each; the manifest lists which promos were active that night.
 The commit timestamp is GitHub's, not ours. That makes each night's claim
 third-party timestamped and impossible to quietly edit later.
 

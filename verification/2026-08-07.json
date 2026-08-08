@@ -380,7 +380,17 @@
       }
     }
   },
-  "generated_at_utc": "2026-08-08T09:32:23Z",
+  "generated_at_utc": "2026-08-08T09:35:49Z",
   "source": "tokenscale.dev nightly pipeline \u2014 prices.json as of this commit",
-  "note": "carried_forward = copied from the previous night without a re-check (cf flag); verified = read from the provider's official pricing page that night"
+  "note": "carried_forward = copied from the previous night without a re-check (cf flag); verified = read from the provider's official pricing page that night",
+  "active_promos": [
+    {
+      "tier": "anthropic/mid",
+      "label": "Sonnet 5 launch $2/$10",
+      "i": 2.0,
+      "o": 10.0,
+      "ends": "2026-08-31",
+      "source": "https://claude.com/pricing"
+    }
+  ]
 }

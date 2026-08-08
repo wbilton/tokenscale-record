@@ -1,0 +1,32 @@
+{
+  "deepseek/mid": [
+    {
+      "i": 0.435,
+      "o": 0.87,
+      "starts": "2026-05-15",
+      "ends": "2026-05-31",
+      "label": "V4 launch -75%",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing"
+    }
+  ],
+  "deepseek/pro": [
+    {
+      "i": 0.435,
+      "o": 0.87,
+      "starts": "2026-05-15",
+      "ends": "2026-05-31",
+      "label": "V4 launch -75%",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing"
+    }
+  ],
+  "anthropic/mid": [
+    {
+      "i": 2.0,
+      "o": 10.0,
+      "starts": "2026-06-30",
+      "ends": "2026-08-31",
+      "label": "Sonnet 5 launch $2/$10",
+      "source": "https://claude.com/pricing"
+    }
+  ]
+}
