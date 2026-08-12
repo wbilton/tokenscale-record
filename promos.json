@@ -28,5 +28,15 @@
       "label": "Sonnet 5 launch $2/$10",
       "source": "https://claude.com/pricing"
     }
+  ],
+  "aws_bedrock/mid": [
+    {
+      "i": 2.0,
+      "o": 10.0,
+      "starts": "2026-06-30",
+      "ends": "2026-08-31",
+      "label": "Sonnet 5 launch $2/$10",
+      "source": "https://aws.amazon.com/bedrock/pricing"
+    }
   ]
 }
